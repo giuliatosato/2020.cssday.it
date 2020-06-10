@@ -12,51 +12,32 @@ title: Schedule
         {% include schedule/header.html tracks='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='9.45-10.00' title='Presentazione GrUSP' fill='true' %}
+        {% include schedule/event.html time='9.30-9.50' title='Introduzione' fill='true' %}
+        {% include schedule/talk.html time='09:50-10.35' title='Make CSS great again' fill='true' %}
+        {% include schedule/talk.html time='10.35-11.20' title='Report Manager e Stampa, un caso reale'  fill='true' %}
+        {% include schedule/pause.html time='11.20-11.35' title='Short break e Networking' icon="coffee" fill='true' %}  
+        <tr>
+          {% include schedule/talk.html title='Font variabili? Sì grazie.' time='11.35-12.20' fill='true' %}
+        </tr> 
+        <tr>
+          {% include schedule/talk.html title='Accessibilità... con stile ' time='12.20-13.05' fill='true' %}
+        </tr>        
 
-        {% include schedule/talk.html time='10.00-10.30' title='Font variabili? Sì grazie.' fill='true' %}
-        {% include schedule/talk.html time='10.30-11.00' title='Accessibilità... con stile'  fill='true' %}
-
-        {% include schedule/pause.html time='11.00-11.30' title='Short break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='13.05-14.05' title='Lunch e Networking' icon="food" fill='true' offerto='true' %}
 
         <tr>
-          {% include schedule/talk.html title='Il dottor Strangepixel - Ovvero: come ho imparato a non preoccuparmi e ad amare gli SVG' time='11.30-12.00' fill='true' %}
+          {% include schedule/talk.html title='L'uno contro l'altro? Praticamente amici! - CSS in JS' time='14.10-14.55' fill='true'  %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html title="Designers e developers: No more tears." time='12.00-12.30' fill='true' %}
+          {% include schedule/talk.html title="Web Components: illusione o realtà?" time='14.55-15.40' fill='true'  %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html title='Advanced web performance best practices' time='12.30-13.00' fill='true' %}
+          {% include schedule/talk.html title='Se Miyazaki fosse stato un developer' time='15.40-16.25' fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' offerto='true' %}
-
-        <tr>
-          {% include schedule/talk.html title='Se Miyazaki fosse stato un developer' time='14.15-14.45' fill='true'  %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title="Report Manager e Stampa, un caso reale" time='14.45-15.15' fill='true'  %}
-        </tr>
-
-        {% include schedule/pause.html time='15.15-15.45' title='Coffee break' icon="coffee" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html title="L'uno contro l'altro? Praticamente amici! - CSS in JS" time='15.45-16.15' fill='true'  %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title='Web Components: illusione o realtà?' time='16.15-16.45' fill='true' %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title='Make CSS great again' time='16.45-17.15'  keynote='true' fill='true' %}
-        </tr>
-
-        {% include schedule/pause.html time='17.15-17.20' title='Saluti e ringraziamenti' icon="bar" fill='true' %}
+        {% include schedule/pause.html time='16.25-18.00' title='Saluti, ringraziamenti e Networking' icon="bar" fill='true' %}
 
       </tbody>
     </table>
@@ -68,66 +49,37 @@ title: Schedule
         {% include schedule/header.html track='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='9.45-10.00' title='Presentazione GrUSP' fill='true' %}
+        
+        {% include schedule/event.html time='9.30-9.50' title='Introduzione' fill='true' %}
+        {% include schedule/talk.html time='09:50-10.35' title='Make CSS great again' fill='true' %}
+        {% include schedule/talk.html time='10.35-11.20' title='Report Manager e Stampa, un caso reale'  fill='true' %}
+        {% include schedule/pause.html time='11.20-11.35' title='Short break e Networking' icon="coffee" fill='true' %}  
+        <tr>
+          {% include schedule/talk.html title='Font variabili? Sì grazie.' time='11.35-12.20' fill='true' %}
+        </tr> 
+        <tr>
+          {% include schedule/talk.html title='Accessibilità... con stile ' time='12.20-13.05' fill='true' %}
+        </tr>        
 
-        {% include schedule/talk.html time='10.00-10.30' title='Font variabili? Sì grazie.' fill='true' %}
-        {% include schedule/talk.html time='10.30-11.00' title='Accessibilità... con stile'  fill='true' %}
-
-        {% include schedule/pause.html time='11.00-11.30' title='Short break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='13.05-14.05' title='Lunch e Networking' icon="food" fill='true' offerto='true' %}
 
         <tr>
-          {% include schedule/talk.html title='Il dottor Strangepixel - Ovvero: come ho imparato a non preoccuparmi e ad amare gli SVG' time='11.30-12.00' fill='true' %}
+          {% include schedule/talk.html title='L'uno contro l'altro? Praticamente amici! - CSS in JS' time='14.10-14.55' fill='true'  %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html title="Designers e developers: No more tears." time='12.00-12.30' fill='true' %}
+          {% include schedule/talk.html title="Web Components: illusione o realtà?" time='14.55-15.40' fill='true'  %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html title='Advanced web performance best practices' time='12.30-13.00' fill='true' %}
+          {% include schedule/talk.html title='Se Miyazaki fosse stato un developer' time='15.40-16.25' fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' offerto='true' %}
-
-        <tr>
-          {% include schedule/talk.html title='Se Miyazaki fosse stato un developer' time='14.15-14.45' fill='true'  %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title="Report Manager e Stampa, un caso reale" time='14.45-15.15' fill='true'  %}
-        </tr>
-
-        {% include schedule/pause.html time='15.15-15.45' title='Coffee break' icon="coffee" fill='true' %}
-
-        <tr>
-          {% include schedule/talk.html title="L'uno contro l'altro? Praticamente amici! - CSS in JS" time='15.45-16.15' fill='true'  %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title='Web Components: illusione o realtà?' time='16.15-16.45' fill='true' %}
-        </tr>
-
-        <tr>
-          {% include schedule/talk.html title='Make CSS great again' time='16.45-17.15'  keynote='true' fill='true' %}
-        </tr>
-
-        {% include schedule/pause.html time='17.15-17.20' title='Saluti e ringraziamenti' icon="bar" fill='true' %}
+        {% include schedule/pause.html time='16.25-18.00' title='Saluti, ringraziamenti e Networking' icon="bar" fill='true' %}
 
       </tbody>
     </table>
   </div>
-
-
-
-
-
-
-
-
-
-
-
 
 </div>
 
